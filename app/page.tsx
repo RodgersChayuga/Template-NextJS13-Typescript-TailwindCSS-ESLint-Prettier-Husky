@@ -44,8 +44,8 @@ const Home = () => (
       </div>
     </div>
 
-    <div className={inter.className}>
-      <h1>
+    <div className={`${inter.className}`}>
+      <h1 className="flex text-4xl items-center">
         NextJS Template, with: <br />
         Typescript, TailwindCSS, ESLint, Prettier, Husky
       </h1>
@@ -104,7 +104,7 @@ const Home = () => (
           Husky <span>-&gt;</span>
         </h2>
         <p className={inter.className}>
-          Find in-depth information about Prettier features and&nbsp;API.
+          Find in-depth information about Husky features and&nbsp;API.
         </p>
       </a>
     </div>
